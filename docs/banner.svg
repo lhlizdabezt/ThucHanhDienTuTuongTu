@@ -8,7 +8,7 @@
         viewBox="0 0 854 220"
       >
         <style>
-      .text {   font-size: 40px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 15px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } 
+      .text {   font-size: 44px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 15px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } 
       .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
     </style>
         <defs>
@@ -43,7 +43,7 @@
           </animate>
         </path>
       </g>
-         <text text-anchor="middle" alignment-baseline="middle" x="50%" y="38%" class="text" style="fill:#ffffff;" stroke="#none" stroke-width="1" >Th?c H�nh �i?n T? Tuong T?</text>
-        <text text-anchor="middle" alignment-baseline="middle" x="50%" y="62%" class="desc" style="fill:#ffffff;">LTspice � LM324 � LM339 � NE555 � 8 B�i M� Ph?ng � HCMUS FETEL</text>
+         <text text-anchor="middle" alignment-baseline="middle" x="50%" y="38%" class="text" style="fill:#ffffff;" stroke="#none" stroke-width="1" >Analog Electronics Lab</text>
+        <text text-anchor="middle" alignment-baseline="middle" x="50%" y="62%" class="desc" style="fill:#ffffff;">LTspice Workspace - LM324 - LM339 - NE555 - 8 Lab Sessions - HCMUS FETEL</text>
       </svg>
     

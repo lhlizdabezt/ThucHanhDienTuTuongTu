@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="Thực Hành Điện Tử Tương Tự — LTspice — LM324 / LM339 / NE555 — HCMUS FETEL" width="100%" />
+  <img src="docs/banner.svg" alt="Analog Electronics Lab — LTspice Workspace — LM324 / LM339 / NE555 — HCMUS FETEL" width="100%" />
 </p>
+
+<h2 align="center">⚡ Thực Hành Điện Tử Tương Tự — HCMUS FETEL ⚡</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Môn%20học-Thực%20hành%20Điện%20tử%20Tương%20tự-0f766e?style=for-the-badge" alt="Môn học" />
@@ -19,7 +21,7 @@
 
 <p align="center">
   <a href="https://github.com/lhlizdabezt/ThucHanhDienTuTuongTu">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3600&pause=900&color=8B0000&center=true&vCenter=true&multiline=true&width=860&height=70&lines=Mô+phỏng+LTspice+•+Op-amp+•+Comparator+•+Oscillator;Từ+công+thức+lý+thuyết+đến+waveform+thực+tế+•+8+bài+•+~30+schematic" alt="Motion tagline" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3600&pause=900&color=8B0000&center=true&vCenter=true&multiline=true&width=860&height=70&lines=LTspice+simulations+%E2%80%A2+Op-amp+%E2%80%A2+Comparator+%E2%80%A2+Oscillator+%E2%80%A2+Filter;From+Kirchhoff+formulas+to+real+waveforms+%E2%80%A2+8+labs+%E2%80%A2+~30+schematics" alt="Motion tagline" />
   </a>
 </p>
 
