@@ -1,0 +1,25 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -31 48 -31 -48
+LINE Normal 96 0 -31 48
+LINE Normal -31 -48 96 0
+WINDOW 0 0 -79 Bottom 2
+WINDOW 3 0 56 Top 2
+SYMATTR Value LM339
+SYMATTR Prefix X
+SYMATTR ModelFile E:\ThiThucHanhCoHa\CoHa\LM339.cir
+PIN -32 -16 LEFT 8
+PINATTR PinName +
+PINATTR SpiceOrder 1
+PIN -32 16 LEFT 8
+PINATTR PinName -
+PINATTR SpiceOrder 2
+PIN 32 -16 BOTTOM 8
+PINATTR PinName Vcc
+PINATTR SpiceOrder 3
+PIN 32 16 TOP 8
+PINATTR PinName VSS
+PINATTR SpiceOrder 4
+PIN 96 0 BOTTOM 8
+PINATTR PinName OUT
+PINATTR SpiceOrder 5

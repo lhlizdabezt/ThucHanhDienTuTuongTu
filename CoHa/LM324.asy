@@ -1,0 +1,24 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -48 49 -47 -48
+LINE Normal 80 0 -48 49
+LINE Normal -47 -48 80 0
+WINDOW 0 -1 -81 Bottom 2
+WINDOW 3 -1 79 Top 2
+SYMATTR Value LM324
+SYMATTR Prefix X
+SYMATTR ModelFile E:\ThiThucHanhCoHa\CoHa\LM324.cir
+PIN -48 -16 LEFT 8
+PINATTR PinName +
+PINATTR SpiceOrder 1
+PIN -48 16 LEFT 8
+PINATTR PinName -
+PINATTR SpiceOrder 2
+PIN 0 -32 BOTTOM 8
+PINATTR PinName Vcc
+PINATTR SpiceOrder 3
+PIN 0 32 TOP 8
+PINATTR PinName Vss
+PINATTR SpiceOrder 4
+PIN 80 0 RIGHT 8
+PINATTR SpiceOrder 5

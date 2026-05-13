@@ -1,0 +1,23 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\LHL\OneDrive\Documents\CoHa\BAI 5 THUC HANH 1.net
+Start Time: Thu Dec 11 12:02:46 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+.OP point found by inspection.
+Total elapsed time: 0.079 seconds.
+
+Files loaded:
+C:\Users\LHL\OneDrive\Documents\CoHa\BAI 5 THUC HANH 1.net
+
+v_sac_ln2rc: V(VC1)=2.49826882199 at 0.00069314718056
+v_sac_1rc: V(VC1)=3.15998849488 at 0.001
+v_sac_2rc: V(VC1)=4.32366211956 at 0.002
+v_sac_3rc: V(VC1)=4.75139699923 at 0.003
+v_sac_4rc: V(VC1)=4.90862021778 at 0.004
+v_sac_5rc: V(VC1)=4.96644684177 at 0.005
+v_xa_ln2rc: V(VC1)=2.48494630129 at 0.00569314718056
+v_xa_1rc: V(VC1)=1.8276661266 at 0.006
+v_xa_2rc: V(VC1)=0.671799861575 at 0.007

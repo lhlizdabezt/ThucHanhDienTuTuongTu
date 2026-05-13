@@ -1,0 +1,15 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\LHL\OneDrive\Documents\CoHa\BAI 5 THUC HANH 2.net
+Start Time: Thu Dec 11 12:49:06 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 6.017 seconds.
+
+Files loaded:
+C:\Users\LHL\OneDrive\Documents\CoHa\BAI 5 THUC HANH 2.net
+C:\Users\LHL\OneDrive\Documents\CoHa\LM339.cir
+
