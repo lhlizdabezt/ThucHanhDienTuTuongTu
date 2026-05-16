@@ -20,9 +20,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/lhlizdabezt/ThucHanhDienTuTuongTu">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3600&pause=900&color=8B0000&center=true&vCenter=true&multiline=true&width=860&height=70&lines=LTspice+simulations+%E2%80%A2+Op-amp+%E2%80%A2+Comparator+%E2%80%A2+Oscillator+%E2%80%A2+Filter;From+Kirchhoff+formulas+to+real+waveforms+%E2%80%A2+8+labs+%E2%80%A2+~30+schematics" alt="Motion tagline" />
-  </a>
+  <img src="assets/analog-lab-motion.gif" alt="GIF motion mô phỏng tín hiệu Điện tử Tương tự bằng LTspice" width="92%" />
 </p>
 
 ---
@@ -31,17 +29,40 @@
 
 Repository tổng hợp **toàn bộ workspace thực hành môn Điện tử Tương tự** tại Khoa Điện tử Viễn thông — HCMUS, bao gồm:
 
-- 🧪 **~30 schematic LTspice** (`.asc`) cho **8 bài thực hành** — từ làm quen op-amp đến mạch chuyển đổi tín hiệu.
+- 🧪 **29 schematic LTspice** (`.asc`) cho **8 bài thực hành** — từ làm quen op-amp đến mạch chuyển đổi tín hiệu.
 - 🔬 **SPICE macromodel + symbol** cho LM324 (op-amp) và LM339 (comparator) — dùng được offline, không phụ thuộc thư viện ngoài.
-- 📊 **Kết quả mô phỏng** (`.raw`, `.log`, `.op.raw`, `.db`) — waveform, operating point và log tự động sinh sau khi `Run` schematic.
+- 📊 **17 artifact mô phỏng** (`.raw`, `.log`, `.op.raw`, `.db`) — waveform, operating point và log tự động sinh sau khi `Run` schematic.
 - 📕 **Tài liệu lý thuyết & hướng dẫn lab** (PDF) — đề cương, lời giải Bài 5 (slew rate, Schmitt, dao động), datasheet TI gốc.
 
-Bộ workspace này được thiết kế để **ai mở ra cũng chạy lại được mô phỏng** — đối chiếu giữa công thức lý thuyết, tham số linh kiện và kết quả thực tế trên LTspice.
+Bộ workspace này được thiết kế để **ai mở ra cũng chạy lại được mô phỏng** — đối chiếu giữa công thức lý thuyết, tham số linh kiện và kết quả thực tế trên LTspice. Đây là repo nền tảng analog trong portfolio của **Lương Hải Long**, thể hiện cách tổ chức lab, mô hình SPICE, kết quả mô phỏng và tài liệu tham khảo thành một workspace có thể kiểm tra lại.
+
+## 👤 Thông tin tác giả
+
+| Mục | Nội dung |
+| --- | --- |
+| Họ tên | **Lương Hải Long** |
+| Mã số sinh viên | **22207056** |
+| Ngành | **Điện tử Viễn thông** |
+| Trường | **Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM** |
+| GitHub | [`github.com/lhlizdabezt`](https://github.com/lhlizdabezt) |
+| LinkedIn | [`linkedin.com/in/lhlizdabezt`](https://www.linkedin.com/in/lhlizdabezt) |
+
+## 🧭 Điểm nhìn HR & engineering
+
+| Người xem | Có thể đánh giá nhanh điều gì | Bằng chứng trong repo |
+| --- | --- | --- |
+| HR / tuyển dụng kỹ thuật | Nền tảng Điện tử Viễn thông, khả năng trình bày bài lab rõ ràng, có liên kết portfolio và release | README tiếng Việt, thông tin tác giả, release, topics, badge, visual motion |
+| Kỹ sư phần cứng / analog | Cách dựng mô phỏng, dùng macromodel, đọc waveform, hiểu giới hạn IC và mạch ứng dụng | File `.asc`, `.cir`, `.asy`, `.raw`, `.log`, bảng linh kiện |
+| Giảng viên / bạn học | Workspace có thể mở lại bằng LTspice, đối chiếu tài liệu lab và bài giải | PDF lab, lý thuyết, bài giải Bài 5, datasheet LM324/LM339 |
+| Người xem portfolio | Repo không chỉ là file nộp môn học, mà là một artefact kỹ thuật có cấu trúc | Banner, GIF motion, hướng dẫn chạy, release notes, liên kết repo liên quan |
 
 ---
 
 ## 📑 Mục lục
 
+- [Tổng quan](#-tổng-quan)
+- [Thông tin tác giả](#-thông-tin-tác-giả)
+- [Điểm nhìn HR & engineering](#-điểm-nhìn-hr--engineering)
 - [Cây thư mục](#-cây-thư-mục)
 - [Tóm tắt 8 bài thực hành](#-tóm-tắt-8-bài-thực-hành)
 - [Linh kiện & mô hình SPICE](#-linh-kiện--mô-hình-spice)
@@ -57,13 +78,15 @@ Bộ workspace này được thiết kế để **ai mở ra cũng chạy lại 
 ```text
 ThucHanhDienTuTuongTu/
 ├── README.md                            # Tài liệu này
-├── RELEASE_NOTES.md                     # Ghi chú release v1.0.0
+├── RELEASE_NOTES.md                     # Ghi chú release và changelog
 ├── docs/
 │   └── banner.svg                       # Banner README (offline)
+├── assets/
+│   └── analog-lab-motion.gif            # GIF motion tự host cho GitHub README
 │
 ├── Labs Dientu_tuongtu_unlocked.pdf     # ✦ Đề cương + hướng dẫn 8 bài (unlocked)
 ├── LYTHUYET.pdf                         # ✦ Tóm tắt lý thuyết op-amp / comparator / 555 / LDO / DAC
-├── Bai 5 Cau 2.pdf                      # ✦ Lời giải Bài 5 — Câu 2 (Schmitt trigger / nguỡng)
+├── Bai 5 Cau 2.pdf                      # ✦ Lời giải Bài 5 — Câu 2 (Schmitt trigger / ngưỡng)
 ├── Bai 5 Cau 3.pdf                      # ✦ Lời giải Bài 5 — Câu 3 (dao động NE555 / LM339)
 ├── LM324 Texas.pdf                      # ✦ Datasheet Texas Instruments — LM324 quad op-amp
 ├── LM339N texas.pdf                     # ✦ Datasheet Texas Instruments — LM339 quad comparator
@@ -230,6 +253,11 @@ ThucHanhDienTuTuongTu/
 ---
 
 ## 📦 Release
+
+- **`v1.1.0`** (2026-05-17) — README portfolio polish + self-hosted motion asset
+  - Thêm GIF motion `assets/analog-lab-motion.gif` để minh họa luồng mô phỏng sin/xung/comparator.
+  - Bổ sung bảng thông tin tác giả, góc nhìn HR/engineering và số liệu kiểm kê repo.
+  - Cập nhật release notes, topics, description và homepage trỏ về release mới nhất.
 
 - **`v1.0.0`** (2026-05-13) — Initial public lab workspace
   - Đầy đủ schematic LTspice cho 8 bài thực hành

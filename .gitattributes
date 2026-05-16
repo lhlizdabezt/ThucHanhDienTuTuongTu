@@ -1,4 +1,5 @@
 *.pdf binary
+*.gif binary
 *.raw binary
 *.op.raw binary
 *.db binary

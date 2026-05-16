@@ -1,5 +1,28 @@
 # Release Notes
 
+## v1.1.0 - Portfolio README polish and motion asset
+
+Ngay phat hanh: 2026-05-17
+
+### Noi dung
+
+- Nang cap README thanh landing page portfolio tieng Viet cho workspace Thuc hanh Dien tu Tuong tu.
+- Them `assets/analog-lab-motion.gif` de minh hoa tin hieu sin, xung, comparator va waveform trong LTspice.
+- Bo sung bang thong tin tac gia, goc nhin HR/engineering, so lieu kiem ke 29 schematic va 17 artifact mo phong.
+- Can chinh release section, GitHub metadata, topics va homepage de tro ve release moi nhat.
+
+### GitHub release body de su dung
+
+```text
+Portfolio polish release for the Analog Electronics Practice lab workspace.
+
+Included:
+- Self-hosted animated GIF for README motion preview.
+- Vietnamese README updates with author identity, HR/engineering review table and exact repo inventory.
+- Metadata refresh for description, homepage, topics, release and tags.
+- Source archive asset for repeatable inspection.
+```
+
 ## v1.0.0 - Initial public lab workspace
 
 Ngay phat hanh: 2026-05-13
