@@ -3,3 +3,10 @@
 *.raw binary
 *.op.raw binary
 *.db binary
+*.md text eol=lf
+*.svg text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pptx binary
+*.docx binary

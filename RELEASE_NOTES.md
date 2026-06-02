@@ -1,17 +1,18 @@
-# English Portfolio Refresh
-
-## Main updates
-
-- Rewrote the public README in English for HR and engineering review.
-- Standardized the repository summary, reviewer map, evidence highlights, scope boundaries and release/tag links.
-- Preserved an evidence-first tone: clear technical nouns, bounded claims and no production ownership beyond the repository material.
-
-## Repository evidence
-
-- LM324 and LM339 op-amp/comparator circuits.
-- NE555 timer and oscillator exercises.
-- Active filters, rectifiers, LDO and DAC-related circuits.
+# English Visual Portfolio Refresh - 2026-06-02
 
 ## Scope
 
-Course/lab simulation evidence for analog electronics. It is not production analog design sign-off.
+This refresh keeps `ThucHanhDienTuTuongTu` aligned with an English-facing engineering portfolio for HR and technical review.
+
+## Changes
+
+- Added an ASCII-safe animated SVG visual under `assets/portfolio-motion.svg`.
+- Embedded the visual in `README.md` for immediate GitHub rendering.
+- Standardized Markdown and binary asset handling through `.gitattributes`.
+- Kept the repository description evidence-first and scoped to: Analog electronics lab repository.
+
+## Review Context
+
+Primary stack: LTspice, LM324, LM339, NE555, filters, rectifiers, LDO, DAC.
+
+The repository remains bounded to its real artifacts and does not claim production ownership beyond what the source tree, reports, code or release assets can support.
