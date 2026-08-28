@@ -1,29 +1,15 @@
-# Reviewer-Ready English Portfolio Guide - 2026-06-02
+# Portfolio Refresh - August 29, 2026
 
-## Release Scope
+## Scope
 
-This release refreshes `lhlizdabezt/ThucHanhDienTuTuongTu` for professional portfolio review. It updates the public README, reviewer card, evidence map, contact links, FAQ, local inspection guide, topic guidance, and English release notes.
+This release replaces generic portfolio wording with a source-backed map of the laboratory manual, LTspice schematics, simulation outputs, device models, and datasheets.
 
-## What Changed
+## Included
 
-- Added a complete English reviewer guide aligned with HR, seminar, and engineering review expectations.
-- Added or refreshed `assets/reviewer-card.svg` with ASCII-safe English text and no moving dotted or curved connector lines.
-- Added structured instructions for review, local inspection, professional boundaries, release usage, and FAQ handling.
-- Standardized public contact links for GitHub, LinkedIn, Facebook, Instagram, YouTube, TikTok, email, and phone.
-- Clarified that public claims are limited to repository-backed evidence.
+- Tagged source archive with every tracked lab file and reference document.
+- Checked `analog-lab-motion.gif` visual.
+- English review instructions that distinguish simulation evidence from physical-hardware claims.
 
-## Reviewer Notes
+## Boundary
 
-- Portfolio track: Analog electronics, LTspice simulation, op-amp/comparator/timer circuits, and lab evidence.
-- Primary stack: LTspice, LM324, LM339, NE555, Rectifiers, Filters, LDO concepts, DAC topics, Analog circuit simulation.
-- Recommended topics: analog-electronics, ltspice, lm324, lm339, ne555, op-amp, comparator, filters, rectifier, circuit-simulation.
-- Public language: English (United States).
-- Visual rule: no moving dotted paths, curved connector lines, or text placed behind moving line graphics.
-
-## Verification Checklist
-
-- README headings, captions, labels, and tables are in English.
-- SVG reviewer card uses ASCII-safe English text.
-- Visual evidence is linked from repository-local assets when available.
-- Release page can be used as a stable public review snapshot.
-- Repository topics and description should match the professional summary in this release.
+Supplied laboratory documents and datasheets remain unmodified for provenance. The repository does not claim calibration, PCB production, or product qualification.

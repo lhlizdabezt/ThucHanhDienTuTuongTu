@@ -1,110 +1,37 @@
-# Analog Electronics LTspice Laboratory Portfolio
+# Analog Electronics LTspice Laboratory Archive
 
-![Profile](https://img.shields.io/badge/Profile-lhlizdabezt-0B3D91?style=for-the-badge)
-![Writing](https://img.shields.io/badge/Writing-IEEE%20and%20Harvard%20style-1F6F5B?style=for-the-badge)
-![Language](https://img.shields.io/badge/Language-English%20US-7A1E3A?style=for-the-badge)
-![Review](https://img.shields.io/badge/Status-Reviewer%20Ready-333333?style=for-the-badge)
+<p align="center">
+  <img src="assets/analog-lab-motion.gif" alt="Analog electronics laboratory archive visual" width="82%" />
+</p>
 
-![Analog Electronics LTspice Laboratory Portfolio reviewer card](assets/reviewer-card.svg)
+This archive keeps the supplied Analog Electronics laboratory manual, LTspice schematics, simulation outputs, selected exercise notes, and LM324/LM339 technical data. It is coursework evidence for circuit analysis and simulation, not a fabricated-hardware validation claim.
 
-## Executive Summary
+## Evidence map
 
-This repository presents an analog electronics lab workspace with LTspice evidence across rectifier, filter, regulator, op-amp, comparator, timer, and converter topics. The public guide translates the lab archive into recruiter-readable engineering evidence while preserving the circuit-simulation focus.
+| Material | Path | Review use |
+|---|---|---|
+| Laboratory schematics | [`CoHa/`](CoHa/) | LTspice `.asc` files for preparation and practice across eight lab sets. |
+| Device models | [`CoHa/LM324.cir`](CoHa/LM324.cir), [`CoHa/LM339.cir`](CoHa/LM339.cir) | Simulation support for operational-amplifier and comparator exercises. |
+| Lab manual | [`Labs Dientu_tuongtu_unlocked.pdf`](Labs%20Dientu_tuongtu_unlocked.pdf) | 106-page supplied laboratory reference. |
+| Datasheets | [`LM324 Texas.pdf`](LM324%20Texas.pdf), [`LM339N texas.pdf`](LM339N%20texas.pdf) | Manufacturer device references. |
+| Exercise records | [`Bai 5 Cau 2.pdf`](Bai%205%20Cau%202.pdf), [`Bai 5 Cau 3.pdf`](Bai%205%20Cau%203.pdf), [`LYTHUYET.pdf`](LYTHUYET.pdf) | Supplied supplementary notes retained without altering their source-language content. |
 
-## Project Snapshot
+## Review workflow
 
-| Field | Details |
-|---|---|
-| Repository | [lhlizdabezt/ThucHanhDienTuTuongTu](https://github.com/lhlizdabezt/ThucHanhDienTuTuongTu) |
-| Portfolio Track | Analog electronics, LTspice simulation, op-amp/comparator/timer circuits, and lab evidence |
-| Public Status | Reviewer-ready English guide with release-backed evidence |
-| Latest Release | [Open stable release](https://github.com/lhlizdabezt/ThucHanhDienTuTuongTu/releases/latest) |
-| Owner Profile | [lhlizdabezt](https://github.com/lhlizdabezt) |
-| Contact | 22207056@student.hcmus.edu.vn; luonghailong.work@gmail.com; Tel: +84988114708 |
+1. Read the laboratory manual and datasheet conditions before changing a schematic.
+2. Open a selected `.asc` file in LTspice with the referenced model files available.
+3. Check the supply rails, model pin order, operating point, transient settings, and measurement units.
+4. Treat `.raw`, `.log`, `.op.raw`, and `.db` files as simulation evidence tied to their matching schematic.
+5. Record limitations from simulation separately from any physical measurement.
 
-## Reviewer Evidence Map
+## Scope
 
-- Twenty-nine LTspice schematics across eight lab modules, with simulation-focused organization.
-- LM324 and LM339 SPICE macromodel/symbol support plus NE555 timing-circuit evidence.
-- Organized public README language for academic and HR review.
-- Motion and SVG assets that summarize the analog lab without blocking source inspection.
+The repository shows simulation and documentation work around LM324, LM339, and NE555-related exercises present in the supplied files. It does not claim PCB production, laboratory calibration, or product qualification. Lecturer materials and datasheets are preserved in their original form for provenance.
 
-## Implementation Review Notes
+## Release
 
-| Review Point | What To Check |
-|---|---|
-| Problem framing | Confirm that the README explains the engineering purpose without exaggerated claims. |
-| Technical evidence | Inspect the source folders, reports, scripts, schematics, or visual assets listed below. |
-| Reproducibility | Use the local instructions where tools are available, or rely on the release snapshot for portfolio review. |
-| Communication quality | Check headings, captions, tables, and release notes for clear English technical writing. |
-| Professional boundary | Treat the repository as educational or portfolio evidence unless the source explicitly proves production deployment. |
+The [2026 portfolio refresh](https://github.com/lhlizdabezt/ThucHanhDienTuTuongTu/releases/tag/portfolio-refresh-2026-08-29) provides a tagged source snapshot and the checked laboratory visual. See [`RELEASE_NOTES.md`](RELEASE_NOTES.md).
 
-## Repository Structure
+## Profile and contact
 
-| Path | Reviewer Purpose |
-|---|---|
-| `CoHa/` | LTspice lab folders and simulation evidence. |
-| `assets/` | Analog lab motion preview and English reviewer card. |
-| `*.asc` | LTspice schematic files when present in lab folders. |
-| `RELEASE_NOTES.md` | Release changelog for the English reviewer guide. |
-
-## How To Review
-
-- Read this README to understand the lab topic map and reviewer scope.
-- Open schematic files in LTspice to inspect circuit topology and simulation setup.
-- Check op-amp, comparator, timer, filter, rectifier, LDO, and DAC evidence by folder.
-- Use the latest release as the stable public review snapshot.
-
-## How To Use Or Inspect Locally
-
-- Install LTspice if you want to inspect or rerun schematics locally.
-- Open the relevant `.asc` schematic from the lab folder you want to review.
-- Confirm model files and symbols are available before running simulation.
-- Use the README and release notes to understand the public portfolio framing.
-
-## Visual Evidence
-
-![Animated English reviewer card.](assets/reviewer-card.svg)
-
-*Animated English reviewer card.*
-
-## Release, Tags, And Topics
-
-- Current release target: `reviewer-guide-2026-06-02`.
-- Recommended topic set: `analog-electronics, ltspice, lm324, lm339, ne555, op-amp, comparator, filters, rectifier, circuit-simulation`.
-- Release notes are maintained in [`RELEASE_NOTES.md`](RELEASE_NOTES.md) for stable reviewer traceability.
-- The release archive is intended for HR review, seminar evidence, and academic portfolio verification.
-
-## Contact And Professional Links
-
-| Channel | Link |
-|---|---|
-| GitHub | [https://github.com/lhlizdabezt](https://github.com/lhlizdabezt) |
-| LinkedIn | [https://www.linkedin.com/in/lhlizdabezt](https://www.linkedin.com/in/lhlizdabezt) |
-| Facebook | [https://www.facebook.com/wageseadrake](https://www.facebook.com/wageseadrake) |
-| Instagram | [https://www.instagram.com/lhlizdabezt](https://www.instagram.com/lhlizdabezt) |
-| YouTube | [https://www.youtube.com/@lhlizdabezt](https://www.youtube.com/@lhlizdabezt) |
-| TikTok | [https://www.tiktok.com/@wageseadrake](https://www.tiktok.com/@wageseadrake) |
-| Academic Email | [22207056@student.hcmus.edu.vn](mailto:22207056@student.hcmus.edu.vn) |
-| Professional Email | [luonghailong.work@gmail.com](mailto:luonghailong.work@gmail.com) |
-| Phone | [+84988114708](tel:+84988114708) |
-
-## FAQ
-
-| Question | Answer |
-|---|---|
-| What is the strongest evidence in this repository? | The strongest evidence is the organized LTspice schematic set across multiple analog lab modules. |
-| Does the repository include physical measurement data? | The public wrapper emphasizes LTspice simulation evidence; physical measurement context depends on the original lab artifacts. |
-| What should recruiters notice? | Circuit literacy, simulation practice, disciplined organization, and public technical communication. |
-
-## Scope And Boundaries
-
-- This repository is presented as public engineering portfolio evidence.
-- Claims are intentionally limited to what the repository, report, source files, simulations, or visual assets can support.
-- Public text is written in English (United States) for HR, faculty, and engineering reviewers.
-- SVG text is kept ASCII-safe to reduce rendering errors, mojibake, and missing-glyph blocks.
-- Motion visuals avoid moving dotted paths, curved connector lines, and text-over-line compositions.
-
-## Writing Standard
-
-The public README, release notes, captions, and reviewer-facing metadata are written in a restrained IEEE and Harvard-inspired style: concise, evidence-first, technically accurate, and suitable for Electronics and Telecommunications portfolio review.
+[GitHub](https://github.com/lhlizdabezt) · [LinkedIn](https://www.linkedin.com/in/lhlizdabezt) · [Facebook](https://www.facebook.com/wageseadrake) · [Instagram](https://www.instagram.com/lhlizdabezt) · [YouTube](https://www.youtube.com/@lhlizdabezt) · [TikTok](https://www.tiktok.com/@wageseadrake) · [22207056@student.hcmus.edu.vn](mailto:22207056@student.hcmus.edu.vn) · [luonghailong.work@gmail.com](mailto:luonghailong.work@gmail.com) · [+84988114708](tel:+84988114708)
